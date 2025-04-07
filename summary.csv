@@ -1,0 +1,6 @@
+date,floor_point_count,pct_change,alert,timestamp,tall_tile_count,floor_pct_change,stack_pct_change,floor_alert,stack_alert
+,94,,False,2025-04-06 15:13:03,,,,False,False
+,94,,,2025-04-06 15:30:27,32.0,0.0,,False,False
+,94,,,2025-04-06 15:35:22,32.0,0.0,0.0,False,False
+,506,,,2025-04-07 14:45:47,126.0,438.2978723404255,293.75,False,True
+,4,,,2025-04-07 14:54:15,309.0,-99.2094861660079,145.23809523809524,True,True
