@@ -20,7 +20,10 @@ pointcloud = go.Figure(data=[go.Scatter3d(         # Create the 3D scatter plot
     z=points[:, 2],
     mode='markers',
     marker=dict(
-        size=2,  
+        size=1,  
+        color=points[:, 2],  # Color by z-coordinate
+        colorscale='Viridis_r',  # You can change this to other scales like 'Jet', 'Hot', etc.
+        colorbar=dict(title='Z value'),  # Optional: add colorbar
     )
 )])
 
